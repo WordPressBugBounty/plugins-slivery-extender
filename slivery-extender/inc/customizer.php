@@ -142,6 +142,23 @@ function wpb_load_file(){
        $themetype = $goldy_soler_themetype;
        $themetype['plugiformname']='goldy_mex';
     }
+    if ( 'Goldy Studio Pro' == $theme->name || 'Goldy Studio' == $theme->name) {
+        global $goldy_studio_themetype;
+        $themetype = $goldy_studio_themetype;
+        $themetype['plugiformname']='goldy_mex';
+    }
+    if ( 'Goldy Nature Pro' == $theme->name || 'Goldy Nature' == $theme->name) {
+        global $goldy_nature_themetype;
+        $themetype = $goldy_nature_themetype;
+        $themetype['plugiformname']='goldy_mex';
+    }
+    if ( 'Goldy Technology Pro' == $theme->name || 'Goldy Technology' == $theme->name) {
+        global $goldy_technology_themetype;
+        $themetype = $goldy_technology_themetype;
+        $themetype['plugiformname']='goldy_mex';
+    }
+
+
     include_once( 'customize_option/social_sections.php' );
     include_once( 'customize_option/header.php' );
     include_once( 'customize_option/footer.php' );
@@ -164,4 +181,3 @@ function wpb_load_file(){
 
 include_once( 'customize_option/SFT_admin_side.php' );
 
-?>
