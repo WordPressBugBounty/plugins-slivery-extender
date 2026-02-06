@@ -157,6 +157,16 @@ function wpb_load_file(){
         $themetype = $goldy_technology_themetype;
         $themetype['plugiformname']='goldy_mex';
     }
+    if ( 'Goldy Rain Pro' == $theme->name || 'Goldy Rain' == $theme->name) {
+        global $goldy_rain_themetype;
+        $themetype = $goldy_rain_themetype;
+        $themetype['plugiformname']='goldy_mex';
+    }
+    if ( 'Goldy electronics Pro' == $theme->name || 'Goldy electronics' == $theme->name) {
+        global $goldy_electronics_themetype;
+        $themetype = $goldy_electronics_themetype;
+        $themetype['plugiformname']='goldy_mex';
+    }
 
 
     include_once( 'customize_option/social_sections.php' );
@@ -174,7 +184,7 @@ function wpb_load_file(){
     include_once( 'customize_option/our_sponsors.php' );
     include_once( 'customize_option/our_services.php' );
     include_once( 'customize_option/book_an_appoinment.php' );
-    include_once( 'customize_option/home_page_ordering.php' );
+    //include_once( 'customize_option/home_page_ordering.php' );
     include_once( 'customize_option/design.php' );
     include_once( 'customize_option/extras.php' );
 }

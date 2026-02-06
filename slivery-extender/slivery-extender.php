@@ -3,7 +3,7 @@
 /**
 * Plugin Name: Slivery Extender
 * Description: To build themes quicker & more easily.
-* Version: 1.0.2
+* Version: 1.0.3
 * Copyright: 2022
 * Text Domain: slivery-extender
 * Domain Path: /languages 

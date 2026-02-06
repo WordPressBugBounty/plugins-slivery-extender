@@ -1,9 +1,9 @@
 === Slivery Extender ===
 
 Tags: Kirki,silvery-extender
-Tested up to: 6.8
+Tested up to: 6.8.1
 Requires PHP: 5.6
-Stable tag: 1.0.3
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
